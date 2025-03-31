@@ -10,7 +10,7 @@ include_HEADERS = \
 
 AM_CPPFLAGS = \
 			  -I$(top_srcdir)/include/ \
-			  $(PMIX_CFLAGS) $(LIBEVENT_CFLAGS)
+			  $(LIBEVENT_CFLAGS)
 
 AM_CXXFLAGS = -fexceptions
 

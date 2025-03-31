@@ -9,14 +9,10 @@ AC_LANG([C])
 
 LT_INIT
 
-AM_PROG_LEX
 AC_PROG_CC
+AM_PROG_LEX
 AC_PROG_YACC
 
-dnl we require Open PMIx to build
-PKG_CHECK_MODULES([PMIX], [pmix >= 4.2.0])
-
-dnl we require libevent to build
 PKG_CHECK_MODULES([LIBEVENT], [libevent >= 2.0.0])
 
 AC_OUTPUT(Makefile)

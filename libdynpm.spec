@@ -6,7 +6,7 @@ Summary:        A library for dynamic process management.
 License:        3-Clause BSD License
 URL:            https://github.com/caps-tum/libdynpm
 Source:         %{name}-%{version}.tar.gz
-BuildRequires:  libevent-devel, pmix-devel
+BuildRequires:  libevent-devel
 
 %description
 A library that includes reconfigurable components to help implement dynamic process managers and tools.

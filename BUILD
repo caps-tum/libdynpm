@@ -1,6 +1,6 @@
 To create an RPM from a checked out repository the following steps are required:
 
-# First ensure pmix-devel and libevent-devel are installed
+# First ensure libevent-devel is installed
 
 # change into the checked out repository
 cd <your path to libdynpm>

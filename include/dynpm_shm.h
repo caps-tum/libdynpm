@@ -38,7 +38,4 @@ int dynpm_shm_process_detach();
 int dynpm_shm_process_read( void **read_buffer, int *read_bytes);
 int dynpm_shm_process_set_malleability_mode(uint32_t mode);
 
-// pmix API
-int dynpm_pmix_server_init();
-
 #endif // shm header
